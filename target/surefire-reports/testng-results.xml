@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-11T12:05:57 IST" name="OpenCartSuite" finished-at="2023-10-11T12:07:13 IST" duration-ms="76843">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistationTest.test_accout_registation()[pri:0, instance:testCase.TC_001_AccountRegistationTest@61230f6a]" name="test_accout_registation" class="testCase.TC_001_AccountRegistationTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-10-11T12:05:57 IST" name="chrometest" finished-at="2023-10-11T12:07:13 IST" duration-ms="76843">
+      <class name="testCase.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:06:16 IST" name="setup" finished-at="2023-10-11T12:06:19 IST" duration-ms="2458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:06:20 IST" name="test_loginDDT" data-provider="LoginData" finished-at="2023-10-11T12:06:30 IST" duration-ms="10765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kameshkam3094@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kamesh@30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginDDT -->
+        <test-method signature="test_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:06:30 IST" name="test_loginDDT" data-provider="LoginData" finished-at="2023-10-11T12:06:41 IST" duration-ms="10686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginDDT -->
+        <test-method signature="test_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:06:41 IST" name="test_loginDDT" data-provider="LoginData" finished-at="2023-10-11T12:06:52 IST" duration-ms="10892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pqrs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pQrs@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginDDT -->
+        <test-method signature="test_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:06:52 IST" name="test_loginDDT" data-provider="LoginData" finished-at="2023-10-11T12:07:03 IST" duration-ms="10635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kameshkam3094@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kamesh@30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginDDT -->
+        <test-method signature="test_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:07:03 IST" name="test_loginDDT" data-provider="LoginData" finished-at="2023-10-11T12:07:13 IST" duration-ms="10773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kannan123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannan@1122]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_003_LoginDDT@2e4b8173]" started-at="2023-10-11T12:07:13 IST" name="tearDown" finished-at="2023-10-11T12:07:13 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_003_LoginDDT -->
+      <class name="testCase.TC_002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCase.TC_002_LoginTest@72a7c7e0]" started-at="2023-10-11T12:06:03 IST" name="setup" finished-at="2023-10-11T12:06:05 IST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:testCase.TC_002_LoginTest@72a7c7e0]" started-at="2023-10-11T12:06:05 IST" name="loginTest" finished-at="2023-10-11T12:06:16 IST" duration-ms="10872" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCase.TC_002_LoginTest.loginTest(TC_002_LoginTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_LoginTest@72a7c7e0]" started-at="2023-10-11T12:06:16 IST" name="tearDown" finished-at="2023-10-11T12:06:16 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_002_LoginTest -->
+      <class name="testCase.TC_001_AccountRegistationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCase.TC_001_AccountRegistationTest@61230f6a]" started-at="2023-10-11T12:05:57 IST" name="setup" finished-at="2023-10-11T12:06:01 IST" duration-ms="4244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_accout_registation()[pri:0, instance:testCase.TC_001_AccountRegistationTest@61230f6a]" started-at="2023-10-11T12:06:01 IST" name="test_accout_registation" finished-at="2023-10-11T12:06:03 IST" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_accout_registation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_AccountRegistationTest@61230f6a]" started-at="2023-10-11T12:06:03 IST" name="tearDown" finished-at="2023-10-11T12:06:03 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_001_AccountRegistationTest -->
+    </test> <!-- chrometest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
